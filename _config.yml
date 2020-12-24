@@ -1,69 +1,32 @@
-# Site
-name: "김현규"
-title: "Fabian's Blog"
-description: "UX를 생각하는 Frontend 개발자 김현규 입니다 😃"
-logo: "assets/images/fabian.png"
-favicon: "assets/images/fabian.png"
-baseurl: ""
-url: "https://codefabian.github.io/"
-google_analytics: "UA-xxxxxxxx-1"
-disqus: "demowebsite"
-# mailchimp-list: "https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b"
-include: ["_pages"]
-permalink: /:title/
-email: khg.fabian@gmail.com
-
-# Authors
-authors:
-  Fabian:
-    name: Fabian
-    display_name: Fabian
-    avatar: ""
-    email: khg.fabian@gmail.com
-    description: "UX를 생각하는 Frontend 개발자 김현규 입니다 😃"
-
-# Plugins
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-archives
-  - jekyll-figure
-
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: "/category/:name/"
-
-# Pagination
-paginate: 6
+# Permalinks
+plugins: [jekyll-paginate]
+gems:
+  - jekyll-pagination
+permalink: /:title
+paginate: 8
 paginate_path: /page:num/
 
-# Other
-highlighter: rouge
-markdown: kramdown
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
+# Setup
+title: hankyeolk_개발 공부
+baseurl: ""
+url: "https://hankyeolk.github.io"
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
-
-# Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
-
-# Post Author Box ("enabled" or "disabled")
-authorbox: "disabled"
-
-# Sass
+# Assets
 sass:
   sass_dir: _sass
-  style: compressed
+  style: :compressed
 
-exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
+# Build settings
+markdown: kramdown
+
+# About
+author:
+  name: hankyeolk
+  url: https://hankyeolk.github.io/
+  email: ddovlek@kakao.com
+  github: hankyeolk
+
+# Custom vars
+version: 1.0.0
+github:
+  repo: https://github.com/hankyeolk/hankyeolk.github.io
