@@ -7,9 +7,9 @@ paginate: 8
 paginate_path: /page:num/
 
 # Setup
-title: hankyeolk_개발 공부
+title: HyunKyu, 개발 공부
 baseurl: ""
-url: "https://hankyeolk.github.io"
+url: "https://codeFabian.github.io"
 
 # Assets
 sass:
@@ -21,12 +21,12 @@ markdown: kramdown
 
 # About
 author:
-  name: hankyeolk
-  url: https://hankyeolk.github.io/
-  email: ddovlek@kakao.com
-  github: hankyeolk
+  name: Hyunkyu
+  url: https://codeFabian.github.io/
+  email: khg.fabian@gmail.com
+  github: codeFabian
 
 # Custom vars
 version: 1.0.0
 github:
-  repo: https://github.com/hankyeolk/hankyeolk.github.io
+  repo: https://github.com/codeFabian/codeFabian.github.io
