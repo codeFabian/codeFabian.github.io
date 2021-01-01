@@ -9,7 +9,7 @@ text: true
 author: "codeFabian"
 post-header: false
 header-img: ""
-order: 1
+order: 15
 ---
 
 ### 버블 정렬
