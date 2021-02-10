@@ -8,6 +8,6 @@ project-header: true
 
 <ul class="catalogue">
   {% assign sorted = site.pages | sort: 'order' | reverse %} {% for page in
-  sorted %} {% if page.js == true %} {% include post-list.html %} {% endif %} {%
-  endfor %}
+  sorted %} {% if page.devlog == true %} {% include post-list.html %} {% endif
+  %} {% endfor %}
 </ul>
