@@ -6,27 +6,22 @@ layout: default
   <div class="post-info">
     <div class="post-type-tag">
       {% if page.draft == true %}
-      <div class="catalogue-tag">
-        Coming Soon
-      </div>
+      <div class="catalogue-tag">Coming Soon</div>
       {% endif %}
-      <div class="post-type">
-        {{ page.type }}
-      </div>
-      <div style="text-align: center;">
-        <a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
-          target="_blank">
+      <div class="post-type">{{ page.type }}</div>
+      <div style="text-align: center">
+        <a
+          href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+          target="_blank"
+        >
           <img
-            src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
+            src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg"
+          />
         </a>
       </div>
     </div>
-    <h1 class="post-title">
-      {{ page.title }}
-    </h1>
-    <h2 class="post-subtitle">
-      {{ page.subtitle }}
-    </h2>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h2 class="post-subtitle">{{ page.subtitle }}</h2>
   </div>
 
   <!-- {% if page.portfolio == true %}
@@ -43,9 +38,7 @@ layout: default
 
   {{ content }} {% if page.draft == true %}
   <div class="catalogue-draft-message">
-    <h1>
-      &#x1F64B; Coming Soon!
-    </h1>
+    <h1>&#x1F64B; Coming Soon!</h1>
     현재 열심히 글을 쓰고 있어요. 조금만 기다려주세요!
   </div>
   {% endif %}
