@@ -8,7 +8,7 @@ til: true
 text: true
 author: "codeFabian"
 post-header: false
-header-img: "img/javascrit.png"
+header-img: ""
 order: 13
 ---
 
