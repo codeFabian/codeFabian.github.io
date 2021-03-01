@@ -19,7 +19,7 @@ order: 15
 ---
 
 **CORS** (Cross-Origin Resource Sharing), "**교차 출처 리소스 공유**" 개념을 이해하기에 앞서
-**SOP** (Same-Origin Policy) "**동일 출처 정책**" 의 개념부터 이해하고 넘어가는 것이, CORS가 등장한 배경에 대해 이해하는것 것에 도움이 되었습니다.
+**SOP** (Same-Origin Policy) "**동일 출처 정책**" 의 개념부터 이해하고 넘어가는 것이, CORS가 등장한 배경에 대해 이해하는 것에 도움이 되었습니다.
 
 <br>
 
