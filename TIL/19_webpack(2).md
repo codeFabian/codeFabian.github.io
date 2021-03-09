@@ -28,7 +28,7 @@ order: 19
 
 `npm install --save-dev eslint eslint-plugin-react eslint-plugin-react-hooks @typescript-eslint/parser @typescript-eslint/eslint-plugin`
 
-```json
+```
  eslint : eslint 라이브러리를 사용하기 위함입니다.
 eslint-plugin-react : React 코드에서의 코드스타일 규칙을 가져옵니다.
 eslint-plugin-react-hooks: 훅스 코드스타일을 포함하고 있습니다.
